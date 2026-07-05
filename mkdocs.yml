@@ -1,0 +1,41 @@
+site_name: Thilangi's QA Knowledge Base
+site_description: Notes and resources on QA, AI testing, and automation
+site_author: Thilangi Uththara De Silva
+site_url: https://thila98.github.io/qa-knowledge-base
+
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - AI in QA:
+    - Overview: ai-in-qa/overview.md
+    - Prompt Templates: ai-in-qa/prompt-templates.md
+    - Tools: ai-in-qa/tools.md
+  - Automation:
+    - Playwright Notes: automation/playwright-notes.md
+    - Pytest Notes: automation/pytest-notes.md
+  - API Testing:
+    - Postman Tips: api-testing/postman-tips.md
+    - REST API Notes: api-testing/rest-api-notes.md
+  - Certifications:
+    - ISTQB CTFL: certifications/istqb-ctfl.md
+    - My Roadmap: certifications/roadmap.md
+  - Weekly Notes:
+    - Week 01: weekly-notes/week-01.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
