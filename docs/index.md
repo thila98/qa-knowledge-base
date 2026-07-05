@@ -1,86 +1,150 @@
-# Welcome to my QA Knowledge Base
+# Welcome
 
-Hi, I am Thilangi Uththara De Silva, a Senior QA Engineer based in Galle, Sri Lanka.
-
-This is my personal space where I document what I learn about QA, AI-powered testing, and automation. I write here regularly as I explore new tools and build new things.
+<div class="hero">
+  <h1>Thilangi's QA & AI Knowledge Base</h1>
+  <p>A personal study blog on QA engineering, AI-powered testing, and automation</p>
+  <div class="hero-badges">
+    <span class="badge">🧪 Senior QA Engineer</span>
+    <span class="badge">🤖 AI-Augmented Testing</span>
+    <span class="badge">🇱🇰 Based in Sri Lanka</span>
+    <span class="badge">🌏 Remote Worker</span>
+  </div>
+</div>
 
 ## About me
 
-I have been working in software quality assurance since 2022, starting as an Associate QA Engineer and growing into a senior role. Currently I work remotely for Sopify.AI, a B2B SaaS company based in Texas, where I lead all QA activities across the product. I also work with Farmers District 46, an insurance district office in Texas, where I design and build operational automation systems using Make.com, ClickUp, and JustCall.
+Hi, I am Thilangi Uththara De Silva, a Senior QA Engineer with over 3 years of experience in software quality assurance. I currently work remotely for Sopify.AI, a B2B SaaS company based in Texas, where I lead all QA activities across the product. I also work with Farmers District 46 building operational automation systems using Make.com and ClickUp.
 
-Before that I worked at Commercial Credit and Finance PLC and Third Space Global, where I built strong foundations in manual testing, defect management, and Agile ways of working.
+This knowledge base is where I document what I learn — from AI testing tools to automation frameworks to certification study notes. I update it regularly as I explore new things.
 
-## Experience
+## Quick stats
 
-- **Senior Software QA Engineer** - Sopify.AI (Jul 2025 - Present) · Remote
-- **Senior Software QA Engineer** - Farmers District 46 (Jul 2025 - Present) · Remote
-- **Freelance QA Engineer** - Self-employed (Dec 2023 - Jul 2025) · Remote
-- **Software QA Engineer** - Commercial Credit and Finance PLC (Sep 2023 - Feb 2024)
-- **Associate Software QA Engineer** - Third Space Global (Aug 2022 - Jul 2023)
+<div class="stats-row">
+  <div class="stat-card">
+    <div class="number">3+</div>
+    <div class="label">Years in QA</div>
+  </div>
+  <div class="stat-card">
+    <div class="number">4</div>
+    <div class="label">GitHub Projects</div>
+  </div>
+  <div class="stat-card">
+    <div class="number">7</div>
+    <div class="label">Certifications</div>
+  </div>
+  <div class="stat-card">
+    <div class="number">51</div>
+    <div class="label">Automated Tests</div>
+  </div>
+</div>
 
-## Education
+## My projects
 
-- **BSc Computer Science and Software Engineering** - University of Bedfordshire · First Class Honours (2019-2022)
-- **Professional Development Programme in Software Quality Assurance** - SLIIT · Grade A- (Nov 2024 - May 2025)
+<div class="project-grid">
+  <div class="project-card">
+    <h3>🤖 AI Test Case Generator</h3>
+    <p>Generates structured QA test cases from feature descriptions using Claude AI. 40 test cases in 15 seconds.</p>
+    <a href="https://github.com/thila98/ai-test-case-generator" target="_blank">View on GitHub →</a>
+  </div>
+  <div class="project-card">
+    <h3>🔗 REST API Testing Framework</h3>
+    <p>25 automated API tests covering GET, POST, PUT, DELETE with CI pipeline and HTML reports.</p>
+    <a href="https://github.com/thila98/api-testing-framework" target="_blank">View on GitHub →</a>
+  </div>
+  <div class="project-card">
+    <h3>📊 QA Metrics Dashboard</h3>
+    <p>Interactive test quality dashboard with 4 charts. Built with Streamlit and Plotly. Live demo available.</p>
+    <a href="https://thila98-qa-metrics-dashboard-appmain-kphsza.streamlit.app/" target="_blank">View Live Demo →</a>
+  </div>
+  <div class="project-card">
+    <h3>📚 QA Knowledge Base</h3>
+    <p>This site. Built with MkDocs Material and deployed to GitHub Pages. Updated weekly.</p>
+    <a href="https://github.com/thila98/qa-knowledge-base" target="_blank">View on GitHub →</a>
+  </div>
+</div>
 
 ## Skills
 
 **QA and Testing**
-Manual Testing, Functional Testing, Regression Testing, Integration Testing, UAT, Security Testing, Performance Testing, API Testing, Mobile Testing, Smoke Testing, Exploratory Testing, Test Planning, Test Case Design, Defect Management, Test Reporting
+<div class="skill-tags">
+  <span class="skill-tag">Manual Testing</span>
+  <span class="skill-tag">Functional Testing</span>
+  <span class="skill-tag">Regression Testing</span>
+  <span class="skill-tag">API Testing</span>
+  <span class="skill-tag">Security Testing</span>
+  <span class="skill-tag">Performance Testing</span>
+  <span class="skill-tag">UAT</span>
+  <span class="skill-tag">Integration Testing</span>
+  <span class="skill-tag">Test Planning</span>
+  <span class="skill-tag">Defect Management</span>
+</div>
 
-**Automation**
-Playwright, Selenium (Java), TestNG, pytest, JMeter, Katalon Studio
+**Automation and Tools**
+<div class="skill-tags">
+  <span class="skill-tag">Playwright</span>
+  <span class="skill-tag">Selenium</span>
+  <span class="skill-tag">pytest</span>
+  <span class="skill-tag">TestNG</span>
+  <span class="skill-tag">Postman</span>
+  <span class="skill-tag">JMeter</span>
+  <span class="skill-tag">Katalon Studio</span>
+</div>
 
-**API and Backend**
-Postman, REST API Testing, SQL, Chrome DevTools
-
-**AI and Automation Tools**
-Claude API, Prompt Engineering, Make.com, Workflow Automation, Hermes AI Agents
+**AI and Automation**
+<div class="skill-tags">
+  <span class="skill-tag">Claude API</span>
+  <span class="skill-tag">Prompt Engineering</span>
+  <span class="skill-tag">Make.com</span>
+  <span class="skill-tag">Hermes AI Agents</span>
+  <span class="skill-tag">GitHub Actions</span>
+  <span class="skill-tag">Docker</span>
+</div>
 
 **Languages**
-Python, Java, JavaScript, SQL
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">Java</span>
+  <span class="skill-tag">JavaScript</span>
+  <span class="skill-tag">SQL</span>
+</div>
 
-**Project and Test Management**
-ClickUp, Jira, Trello, TestRail, TestPad, Qase, Multica
+## Experience
 
-**DevOps and Infrastructure**
-Git, GitHub, GitHub Actions, Docker, CI/CD
+| Role | Company | Period |
+|---|---|---|
+| Senior Software QA Engineer | Sopify.AI | Jul 2025 - Present |
+| Senior Software QA Engineer | Farmers District 46 | Jul 2025 - Present |
+| Freelance QA Engineer | Self-employed | Dec 2023 - Jul 2025 |
+| Software QA Engineer | Commercial Credit and Finance PLC | Sep 2023 - Feb 2024 |
+| Associate Software QA Engineer | Third Space Global | Aug 2022 - Jul 2023 |
 
-**Methodologies**
-Agile, Scrum, Sprint Planning, Business Analysis
+## Education
+
+| Qualification | Institution | Grade |
+|---|---|---|
+| BSc Computer Science and Software Engineering | University of Bedfordshire | First Class Honours |
+| Professional Development Programme in SQA | SLIIT | A- |
 
 ## Certifications
 
-- API Testing Learning Path - Postman (Jun 2026)
-- Product Owner Certification - Udemy (Jun 2026)
-- Professional Diploma in Agile Product Management - Udemy (May 2025)
-- Mastering Postman: A Comprehensive API Testing Course - Udemy (May 2025)
-- AWS Services for Solutions Architect Associate - Udemy (Dec 2024)
-- Master Course in PMP - Project Management Professional - Udemy (Sep 2023)
-- JavaScript Essential Training - LinkedIn Learning (Sep 2021)
+| Certification | Provider | Year |
+|---|---|---|
+| API Testing Learning Path | Postman | 2026 |
+| Product Owner Certification | Udemy | 2026 |
+| Professional Diploma in Agile Product Management | Udemy | 2025 |
+| Mastering Postman | Udemy | 2025 |
+| AWS Services for Solutions Architect Associate | Udemy | 2024 |
+| Master Course in PMP | Udemy | 2023 |
+| JavaScript Essential Training | LinkedIn Learning | 2021 |
 
 ## Currently studying
 
-- ISTQB CTFL - in progress
-- Mabl Foundations - in progress
-
-## My projects
-
-| Project | Description | Link |
-|---|---|---|
-| AI Test Case Generator | Generates structured QA test cases from feature descriptions using Claude AI | [GitHub](https://github.com/thila98/ai-test-case-generator) |
-| REST API Testing Framework | 25 automated API tests covering GET, POST, PUT, DELETE with CI pipeline | [GitHub](https://github.com/thila98/api-testing-framework) |
-| QA Metrics Dashboard | Interactive test quality metrics dashboard with 4 charts | [Live Demo](https://thila98-qa-metrics-dashboard-appmain-kphsza.streamlit.app/) |
-
-## What you will find here
-
-- **AI in QA** - how I use AI tools to make testing faster and smarter
-- **Automation** - Playwright, pytest, and framework notes
-- **API Testing** - REST API testing patterns and Postman tips
-- **Certifications** - study notes for ISTQB and other certs
-- **Weekly Notes** - short updates on what I am learning each week
+!!! info "In progress"
+    - ISTQB CTFL - Foundation Level
+    - Mabl Foundations
+    - Applitools ULTRAFAST Test Cloud
 
 ## Connect with me
 
-- GitHub: [github.com/thila98](https://github.com/thila98)
-- LinkedIn: [Thilangi Uththara De Silva](https://www.linkedin.com/in/thilangi-de-silva-66bb0b190/)
+- :fontawesome-brands-github: [github.com/thila98](https://github.com/thila98)
+- :fontawesome-brands-linkedin: [Thilangi Uththara De Silva](https://www.linkedin.com/in/thilangi-de-silva-66bb0b190/)

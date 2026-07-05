@@ -1,18 +1,52 @@
-site_name: Thilangi's QA Knowledge Base
-site_description: Notes and resources on QA, AI testing, and automation
+site_name: Thilangi's QA & AI Knowledge Base
+site_description: A personal study blog on QA engineering, AI-powered testing, and automation
 site_author: Thilangi Uththara De Silva
 site_url: https://thila98.github.io/qa-knowledge-base
 
 theme:
   name: material
   palette:
-    primary: teal
-    accent: teal
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
+    - navigation.top
     - search.highlight
     - search.suggest
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/thila98
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/thilangi-de-silva-66bb0b190/
+      name: LinkedIn
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
@@ -30,12 +64,21 @@ nav:
     - ISTQB CTFL: certifications/istqb-ctfl.md
     - My Roadmap: certifications/roadmap.md
   - Weekly Notes:
-    - Week 01: weekly-notes/week-01.md
+    - Week 01 - July 2026: weekly-notes/week-01.md
 
 markdown_extensions:
   - admonition
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.keys
