@@ -1,0 +1,203 @@
+/* Custom colour palette */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #458393;
+  --md-primary-fg-color--light: #34A99D;
+  --md-primary-fg-color--dark: #458393;
+  --md-accent-fg-color: #34A99D;
+  --md-default-bg-color: #fffff8;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #34A99D;
+  --md-primary-fg-color--light: #E5CB90;
+  --md-primary-fg-color--dark: #458393;
+  --md-accent-fg-color: #E5CB90;
+}
+
+/* Custom styles for Thilangi's QA Knowledge Base */
+
+/* Smooth font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hero section on home page */
+.hero {
+  background: linear-gradient(135deg, #458393 0%, #34A99D 100%);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white !important;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.badge {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.85rem;
+  color: white;
+  backdrop-filter: blur(4px);
+}
+
+/* Project cards */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.project-card {
+  border: 1px solid #E5CB90;
+  border-radius: 10px;
+  padding: 1.3rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--md-default-bg-color);
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(69,131,147,0.15);
+  border-color: #34A99D;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #458393;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 0.8rem;
+}
+
+.project-card a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #34A99D;
+}
+
+/* Stats row */
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 120px;
+  background: linear-gradient(135deg, #458393 0%, #34A99D 100%);
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-align: center;
+  color: white;
+}
+
+.stat-card .number {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat-card .label {
+  font-size: 0.8rem;
+  opacity: 0.85;
+  margin-top: 0.3rem;
+}
+
+/* Skill tags */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.skill-tag {
+  background: #FFF3C8;
+  color: #458393;
+  border-radius: 6px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #E5CB90;
+}
+
+/* Dark mode skill tags */
+[data-md-color-scheme="slate"] .skill-tag {
+  background: #1a3a42;
+  color: #E5CB90;
+  border-color: #458393;
+}
+
+[data-md-color-scheme="slate"] .project-card {
+  border-color: #458393;
+}
+
+[data-md-color-scheme="slate"] .project-card h3 {
+  color: #34A99D;
+}
+
+[data-md-color-scheme="slate"] .project-card a {
+  color: #34A99D;
+}
+
+/* Admonition tweaks */
+.md-typeset .admonition {
+  border-radius: 8px;
+}
+
+/* Code blocks */
+.md-typeset pre {
+  border-radius: 8px;
+}
+
+/* Better table styling */
+.md-typeset table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Weekly note styling */
+.week-header {
+  border-left: 4px solid #34A99D;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Links */
+.md-typeset a {
+  color: #458393;
+}
+
+.md-typeset a:hover {
+  color: #34A99D;
+}
